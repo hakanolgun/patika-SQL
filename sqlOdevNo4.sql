@@ -13,8 +13,13 @@ FROM FILM;
 
 SELECT COUNT(*)
 FROM FILM
-WHERE TITLE ilike 'T%'
+WHERE TITLE ILIKE 'T%'
 	AND RATING = 'G';
 
 
--- 4.
+-- 4. country tablosunda bulunan ülke isimlerinden (country) kaç tanesi 5 karakterden oluşmaktadır?
+
+SELECT COUNT(COUNTRY)
+FROM COUNTRY
+WHERE LENGTH(COUNTRY) = 5;
+
