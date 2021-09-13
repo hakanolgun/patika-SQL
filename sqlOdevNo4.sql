@@ -23,3 +23,8 @@ SELECT COUNT(COUNTRY)
 FROM COUNTRY
 WHERE LENGTH(COUNTRY) = 5;
 
+
+-- 5. city tablosundaki şehir isimlerinin kaçtanesi 'R' veya r karakteri ile biter?
+
+select count(city) from city
+where city ILIKE '%R';
