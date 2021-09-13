@@ -15,6 +15,10 @@ having Count(*) > 50;
 
 -- 3.customer tablosunda bulunan store_id değerlerine karşılık gelen müşteri sayılarını nelerdir?
 
-
+SELECT STORE_ID,
+	COUNT(*)
+FROM CUSTOMER
+GROUP BY STORE_ID;
 
 -- 4.city tablosunda bulunan şehir verilerini country_id sütununa göre gruplandırdıktan sonra en fazla şehir sayısı barındıra country_id bilgisini ve şehir sayısını paylaşınız.
+
