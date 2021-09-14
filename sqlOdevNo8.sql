@@ -15,6 +15,11 @@ insert into employee (id, name, birthday, email) values (1, 'Alissa', '2021-05-0
 
 -- 3.  Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
 
-
+UPDATE employee
+SET name = 'Ahmet',
+	birthday = '1990-10-10',
+	email = 'patika@patika.com'
+WHERE id = 1;
+--Yukarıdaki örnek yapı kullanılarak 5 adet update işlemi yapıldı
 
 -- 4.  Sütunların her birine göre  ilgili satırı silecek 5 adet DELETE işlemi yapalım.
