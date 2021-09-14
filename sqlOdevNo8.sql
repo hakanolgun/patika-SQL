@@ -9,9 +9,12 @@ CREATE TABLE EMPLOYEE (
 
 -- 2.  Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
 
+insert into employee (id, name, birthday, email) values (1, 'Alissa', '2021-05-04', 'abiasini0@livejournal.com');
+-- Yukarıdaki örnek yapı ile 50 satır eklendi
 
 
 -- 3.  Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+
 
 
 -- 4.  Sütunların her birine göre  ilgili satırı silecek 5 adet DELETE işlemi yapalım.
