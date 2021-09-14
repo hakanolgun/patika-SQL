@@ -23,3 +23,7 @@ WHERE id = 1;
 --Yukarıdaki örnek yapı kullanılarak 5 adet update işlemi yapıldı
 
 -- 4.  Sütunların her birine göre  ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+
+delete from employee
+where name ilike 'Ahmet';
+-- Yukarıdaki örnek yapı kullanılarak 5 adet silme işlemi yapıldı
